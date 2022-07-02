@@ -1,8 +1,8 @@
-#include <stdo.h>
-#include <string.h>
+#include <stdio.h>
+
 /**
  * main - main block
- * Return: Always 0 (success)
+ * Return: 0 
  */
 
 int main(void)
