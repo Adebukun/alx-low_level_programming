@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ * main - print all possible combinations of single-digit numbers
+ *
+ * Return: 0 if successful
+ */
+int main(void)
+{
+int var;
+for (var = 0; var < 10; var++)
+{
+	putchar((var % 10) + 'o');
+	if (var >= 0 && var < 9)
+	{
+		putchar(',');
+		putchar(' ');
+	}
+	else
+		continue;
+}
+putchar('\n');
+return (0);
+}
